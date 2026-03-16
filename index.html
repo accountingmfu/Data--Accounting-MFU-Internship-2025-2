@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Placement Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Internship Placement Dashboard</h1>
+        <div class="kpi">
+            <div class="kpi-metric">
+                <h2>Total Placements</h2>
+                <p id="total-placements">0</p>
+            </div>
+            <div class="kpi-metric">
+                <h2>Successful Placements</h2>
+                <p id="successful-placements">0</p>
+            </div>
+            <div class="kpi-metric">
+                <h2>Pending Approvals</h2>
+                <p id="pending-approvals">0</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <canvas id="doughnutChart"></canvas>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
